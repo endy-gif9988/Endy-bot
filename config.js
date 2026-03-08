@@ -1,11 +1,7 @@
-import {watchFile, unwatchFile} from 'fs';
-import chalk from 'chalk';
-import {fileURLToPath} from 'url';
-import fs from 'fs'; 
-import cheerio from 'cheerio';
-import fetch from 'node-fetch';
-import axios from 'axios';
-import moment from 'moment-timezone';
+
+import { watchFile, unwatchFile } from 'fs'
+import chalk from 'chalk'
+import { fileURLToPath } from 'url'
 
 global.owner = [
   ['212679283897', 'Endy|'],
@@ -13,75 +9,102 @@ global.owner = [
   ['212693877842', 'medalis|'],
   ['5511967898841', 'ksav|'],
   ['393926427789', 'knor|'],
-]
-global.suittag = ['xxxxxxxxxx'] 
-global.prems = ['xxxxxxxxxx'] 
-global.reportes_solicitudes = ['xxxxxxxxxx']
 
-global.packname = 'ฅ^•ﻌ•^ฅ'
-global.author = '★Ƶɛყŋơცơƚ★'
-global.wm = '★Ƶɛყŋơცơƚ ★'
-global.vs = '3.0'
-global.igfg = '★Ƶɛყŋơცơƚ★'
-global.wait = '*[❗]⌛ _Caricando..._*\n*▰▰▰▱▱▱▱▱*'
+] //Numeros de owner 
 
-global.imagen1 = fs.readFileSync('./Menu2.jpg')
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-global.imagen4 = fs.readFileSync('./Menu.png')
-global.imagen5 = fs.readFileSync('./src/+18.jpg')
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = [] 
+global.mods = ['212679283897'] 
+global.prems = ['212679283897', '85253382438']
 
-//* *******Tiempo***************
-global.d = new Date(new Date + 3600000)
-global.locale = 'it'
-global.dia = d.toLocaleDateString(locale, { weekday: 'long' })
-global.fecha = d.toLocaleDateString('it', { day: 'numeric', month: 'numeric', year: 'numeric' })
-global.mes = d.toLocaleDateString('it', { month: 'long' })
-global.año = d.toLocaleDateString('it', { year: 'numeric' })
-global.tiempo = d.toLocaleString('it', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
-//*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ ცơɬῳɧąıɬą`
-global.gt = '★Ƶɛყŋơცơƚ★'
-global.mysticbot = '★Ƶɛყŋơცơƚ★'
-global.md = 'https://github.com/endy-gif9988/Endy-bot'
-global.mysticbot = 'https://github.com/endy-gif9988/Endy-bot'
-global.waitt = '*[❗] ⌛ _Caricando..._*\n*▰▰▰▱▱▱▱▱*'
-global.waittt = '*[❗]⌛ _Caricando..._*\n*▰▰▰▱▱▱▱▱*'
-global.waitttt = '*[❗] ⌛ _Caricando..._*\n*▰▰▰▱▱▱▱▱*'
-global.nomorown = '212679283897'
-global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
-global.cmenut = '❖––––––╔'
-global.cmenur = '╝––––––❖'
-global.cmenub = '┊✦ '
-global.cmenuf = '╰━═┅═━––––––๑\n'
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
-global.dmenut = '*❖─┅──┅〈*'
-global.dmenub = '*┊»*'
-global.dmenub2 = '*┊*'
-global.dmenuf = '*╰┅────────┅✦*'
-global.htjava = '⫹⫺'
-global.htki = '*⭑•̩̩͙⊱•••• ☪*'
-global.htka = '*☪ ••••̩̩͙⊰•⭑*'
-global.comienzo = '• • ◕◕════'
-global.fin = '════◕◕ • •'
-global.botdate = `⫹⫺ Date :  ${moment.tz('Europe/Berlin').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Europe/Berlin').format('HH:mm:ss')}`//America/Los_Angeles
-global.fgif = {key: { participant : '0@s.whatsapp.net'}, message: { "videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999',  'gifPlayback': 'true',  'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}}
-global.multiplier = 99
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
+// 'fiktod' 'BF39D349845E' '675e34de8a' '0b917b905e6f'
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
+global.lolkeysapi = ['BrunoSobrino']
+
+global.APIs = { 
+  xteam: 'https://api.xteam.xyz', 
+  nrtm: 'https://fg-nrtm-nhie.onrender.com',
+  bg: 'http://bochil.ddns.net',
+  fgmods: 'https://api-fgmods.ddns.net',
+  dzx: 'https://api.dhamzxploit.my.id',
+  lol: 'https://api.lolhuman.xyz',
+  violetics: 'https://violetics.pw',
+  neoxr: 'https://api.neoxr.my.id',
+  zenzapis: 'https://zenzapis.xyz',
+  akuari: 'https://api.akuari.my.id',
+  akuari2: 'https://apimu.my.id',        
+  fgmods: 'https://api-fgmods.ddns.net'
+},
+global.APIKeys = { 
+  'https://api.xteam.xyz': `${keysxteam}`,
+  'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
+  'https://api.neoxr.my.id': `${keysneoxr}`,        
+  'https://violetics.pw': 'beta',
+}
+
+global.imagen1 = ['./media/menu1.jpg']
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+// Sticker WM
+global.packname = 'SUPERFABRIBOT-MD'
+global.author = 'SUPERFABRIBOT-MD'
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+global.fgig = 'https://github.com/fabriziodee/superbot2023'
+
+global.yt = ''
+
+global.fgpyp = 'https://www.tiktok.com/@3r1z10'
+
+global.faceb = ''
+
+global.vs = 'Mi0 2.1'
+
+global.lb = 'SUPERFABRIBOT-MD'
+global.lolibot = lb
+
+global.dygp = 'https://chat.whatsapp.com/BHZDSUDHuwWEed4Ut8aeUQ' //grupo del bot
+
+global.nna = 'https://chat.whatsapp.com/BHZDSUDHuwWEed4Ut8aeUQ' //UPDATE
+
+global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
+
+global.multiplier = 69 
+global.maxwarn = '4' // máxima advertencias
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+global.wm = 'SUPERFABRIBOT-MD'
+global.wait = '*⌛ _Caricando..._*\n*▰▰▰▱▱▱▱▱*'
+global.rwait = '⌛'
+global.dmoji = '🤭'
+global.done = '✅'
+global.error = '❌' 
+global.xmoji = '🔥' 
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
 global.flaaa = [
-  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
-  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
-  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
-  'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
-  'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=',
-];
-//* ************************
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
 
-const file = fileURLToPath(import.meta.url);
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
-  unwatchFile(file);
-  console.log(chalk.redBright('Update \'config.js\''));
-  import(`${file}?update=${Date.now()}`);
-});
+  unwatchFile(file)
+  console.log(chalk.redBright("Update 'config.js'"))
+  import(`${file}?update=${Date.now()}`)
+})
