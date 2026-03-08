@@ -59,7 +59,7 @@ global.author = 'SUPERFABRIBOT-MD'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.fgig = 'https://github.com/fabriziodee/superbot2023'
+global.fgig = 'https://github.com/endy-gif9988/Endy-bot'
 
 global.yt = ''
 
@@ -67,16 +67,16 @@ global.fgpyp = 'https://www.tiktok.com/@3r1z10'
 
 global.faceb = ''
 
-global.vs = 'Mi0 2.1'
+global.vs = '3.0'
 
 global.lb = 'SUPERFABRIBOT-MD'
 global.lolibot = lb
 
-global.dygp = 'https://chat.whatsapp.com/BHZDSUDHuwWEed4Ut8aeUQ' //grupo del bot
+global.dygp = '' //grupo del bot
 
 global.nna = 'https://chat.whatsapp.com/BHZDSUDHuwWEed4Ut8aeUQ' //UPDATE
 
-global.fglog = 'https://telegra.ph/file/1861aab98389b13db8588.png' 
+global.fglog = '' 
 
 global.multiplier = 69 
 global.maxwarn = '4' // máxima advertencias
